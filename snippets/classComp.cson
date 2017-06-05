@@ -1,0 +1,15 @@
+".source.js, .source.jsx, .source.ts":
+  "class Comp extands Component":
+    "prefix": "classComp"
+    "body": """
+      class ${1:Component} extands Component {
+
+        $2
+
+        render() {
+          return (
+          ${3:<div></div>}
+          )
+        }
+      };$4
+      """
