@@ -1,0 +1,8 @@
+".source.js, .source.jsx, .source.ts":
+  "componentDidMount()":
+    "prefix": "componentDidMount"
+    "body": """
+      componentDidMount() {
+        $1
+      }$2
+      """
