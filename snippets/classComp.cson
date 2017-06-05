@@ -12,4 +12,6 @@
           )
         }
       };$4
+
+      export default ${1:Component}
       """
