@@ -1,0 +1,6 @@
+".source.js, .source.jsx, .source.ts":
+  "import 'react'":
+    "prefix": "importReact"
+    "body": """
+      import React, { Component } from "react";$1
+      """
